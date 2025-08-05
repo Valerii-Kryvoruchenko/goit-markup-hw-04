@@ -309,7 +309,9 @@ img {
 .social-link-icon {
   fill: #f4f4fd;
 }
-.social-link-item:hover .social-link,
+.social-link-item:hover .social-link {
+  background-color: #404bbf;
+}
 .social-link-item:focus .social-link {
   background-color: #404bbf;
 }
@@ -401,6 +403,7 @@ img {
   display: flex;
   align-items: baseline;
 }
+
 .social-links-title {
   font-weight: 500;
   line-height: 1.5;
@@ -409,14 +412,20 @@ img {
   margin-bottom: 16px;
 }
 
-footer .social-link-item:hover .social-link,
+footer .social-link-item:hover .social-link {
+  background-color: #31d0aa;
+}
+
 footer .social-link-item:focus .social-link {
   background-color: #31d0aa;
 }
+
 .footer-logo-container {
   margin-right: 120px;
 }
-.social-links {
+footer .social-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
 }

@@ -309,10 +309,10 @@ img {
 .social-link-icon {
   fill: #f4f4fd;
 }
-.social-link-item:hover .social-link {
+.social-link:hover {
   background-color: #404bbf;
 }
-.social-link-item:focus .social-link {
+.social-link:focus {
   background-color: #404bbf;
 }
 

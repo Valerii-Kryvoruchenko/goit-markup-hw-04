@@ -412,11 +412,11 @@ img {
   margin-bottom: 16px;
 }
 
-footer .social-link-item:hover .social-link {
+footer .social-link:hover {
   background-color: #31d0aa;
 }
 
-footer .social-link-item:focus .social-link {
+footer .social-link:focus {
   background-color: #31d0aa;
 }
 

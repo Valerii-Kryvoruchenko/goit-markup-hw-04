@@ -373,7 +373,7 @@ img {
 .portfolio-items:hover .overlay {
   transform: translateY(0);
 }
-/* .portfolio-items vs .portfolio-text-wrap */
+
 .portfolio-items:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -399,7 +399,6 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 .social-links-title {
@@ -413,4 +412,11 @@ img {
 footer .social-link-item:hover .social-link,
 footer .social-link-item:focus .social-link {
   background-color: #31d0aa;
+}
+.footer-logo-container {
+  margin-right: 120px;
+}
+.social-links {
+  display: flex;
+  gap: 16px;
 }
